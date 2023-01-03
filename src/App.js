@@ -6,6 +6,8 @@ import Edit from "./pages/Edit";
 import New from "./pages/New";
 import Diary from "./pages/Diary";
 
+import RouteTest from "./components/RoutTest";
+
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +19,7 @@ function App() {
           <Route path="/edit" element={<Edit />} />
           <Route path="/diary" element={<Diary />} />
         </Routes>
+        <RouteTest />
       </div>
     </BrowserRouter>
   );
