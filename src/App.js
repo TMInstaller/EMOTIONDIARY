@@ -17,7 +17,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/new" element={<New />} />
           <Route path="/edit" element={<Edit />} />
-          <Route path="/diary" element={<Diary />} />
+          <Route path="/diary/:id" element={<Diary />} />
+          /* 일기 아이디가 존재하지 않을 이유가 없으므로 이대로 둠 */
         </Routes>
         <RouteTest />
       </div>
